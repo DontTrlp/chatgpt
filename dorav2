@@ -357,7 +357,7 @@ local Tabs = {
     Movement = MainSection:Tab({ Title = "Movement", Icon = "run" }),
     Combat = MainSection:Tab({ Title = "Combat", Icon = "crosshair" }),
     Visuals = MainSection:Tab({ Title = "Visuals", Icon = "eye" }),
- Hubs = MainSection:Tab({ Title = "Hubs", Icon = "code" }),
+ Hub = MainSection:Tab({ Title = "Hubs", Icon = "code" }),
 
     Utilities = MainSection:Tab({ Title = "Utilities", Icon = "tools" }),
     Settings = MainSection:Tab({ Title = "Settings", Icon = "settings" }),
@@ -499,6 +499,7 @@ Tabs.Visuals:Button({ Title = "Remove Tool Visuals (world)", Callback = function
     end
     notify("Visuals", "Removed many world effects", 2)
 end})
+
 Tabs.Hub:Button({Title="Infinite Yield",Callback=function()loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()end})
 Tabs.Hub:Button({Title="Ghost Hub",Callback=function()loadstring(game:HttpGet("https://raw.githubusercontent.com/GhostPlayer352/Test4/main/GhostHub"))()end})
 Tabs.Hub:Button({Title="Nameless Admin",Callback=function()loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Source"))()end})
