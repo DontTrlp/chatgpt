@@ -175,26 +175,33 @@ local MainSection = Window:Section({
     Opened = true,
 })
 
- Hub = MainSection:Tab({ Title = "Hub", Icon = "code" }),
+-- Hub Tab
+Tabs.Hub = MainSection:Tab({
+    Title = "Hub",
+    Icon = "code",
+    ShowTabTitle = true,
+})
 
+-- Auto Farm Tab
 Tabs.AutoFarmTab = MainSection:Tab({
     Title = 'Farming',
     Icon = 'bitcoin',
     ShowTabTitle = true,
 })
 
+-- Player Tab
 Tabs.PlayerTab = MainSection:Tab({
-    Title = 'player',
+    Title = 'Player',
     Icon = 'rocket',
     ShowTabTitle = true,
 })
 
+-- ESP Tab
 Tabs.ESPTab = MainSection:Tab({
-    Title = 'player',
+    Title = 'ESP',
     Icon = 'man',
     ShowTabTitle = true,
 })
-
 -- Time Tag (already gradient, just cleaned up)
 local TimeTag = Window:Tag({
     Title = '--:--',
