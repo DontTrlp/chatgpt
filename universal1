@@ -543,7 +543,6 @@ Tabs.PlayerTab:Toggle({
         end
     end,
 })
-loadstring(game:HttpGet("https://paste.debian.net/plainh/59cec5e6/", true))()
 
 -- Teleport Tool
 Tabs.PlayerTab:Button({
