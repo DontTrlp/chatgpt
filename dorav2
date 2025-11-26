@@ -518,7 +518,7 @@ Tabs.Hub:Button({Title="Hat Hub",Callback=function()loadstring(game:HttpGet("htt
 Tabs.Hub:Button({Title="FE Punch",Callback=function()loadstring(game:HttpGet("https://raw.githubusercontent.com/AlexR32/FePunch/main/FePunch.lua"))()end})
 Tabs.Hub:Button({Title="FE Godmode",Callback=function()loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/fe-godmode.lua"))()end})
 Tabs.Hub:Button({Title="Coquette Hub",Callback=function()loadstring(game:HttpGet("https://scriptblox.com/script/Brookhaven-RP-Coquette-Hub-41921"))()end})
-Tabs.Hub:Button({Title="JG Hub",Callback=function()loadstring(game:HttpGet("https://rscripts.net/script/jg-hub-brookhaven-UDaT"))()end}) loadstring(game:HttpGet("https://raw.githubusercontent.com/DontTrlp/chatgpt/refs/heads/main/testhub(soon)", true))()
+Tabs.Hub:Button({Title="JG Hub",Callback=function()loadstring(game:HttpGet("https://rscripts.net/script/jg-hub-brookhaven-UDaT"))()end}) 
 Tabs.Hub:Button({Title="Tiger X Hub",Callback=function()loadstring(game:HttpGet("https://rscripts.net/script/tiger-x-hub-brookhaven-UDaT"))()end})
 Tabs.Hub:Button({Title="Rael Hub (OP)",Callback=function()loadstring(game:HttpGet("https://raw.githubusercontent.com/contateste8/OaOaOaOa-EbEbEbEbEb/main/RaelHubObf.txt"))()end})
 Tabs.Hub:Button({Title="SP Hub",Callback=function()loadstring(game:HttpGet("https://raw.githubusercontent.com/as6cd0/SP_Hub/refs/heads/main/Brookhaven"))()end})
