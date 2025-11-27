@@ -1,5 +1,6 @@
 -- Xenure Hub | Flick
 -- Clean FPS script with Luna UI
+-- i dont own this script just repost forgot who orginal owner is but credits to them
 
 local Luna = loadstring(game:HttpGet("https://raw.githubusercontent.com/Nebula-Softworks/Luna-Interface-Suite/main/source.lua"))()
 
