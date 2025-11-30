@@ -547,7 +547,7 @@ Tabs.Hub:Button({Title="Something Hub PSX",Callback=function()loadstring(game:Ht
 Tabs.Hub:Button({Title="Fly GUI V3",Callback=function()loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()end})
 Tabs.Hub:Button({Title="FE Invisible",Callback=function()loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-fe-invisible-OPEN-SOURCE-53560"))()end})
 Tabs.Hub:Button({Title="Ketamine Hub",Callback=function()loadstring(game:HttpGet("https://raw.githubusercontent.com/InfernusScripts/Ketamine/refs/heads/main/Ketamine.lua"))()end})
-Tabs.Hub:Button({Title="c00lgui v2",Callback=function()loadstring(game:GetObjects("rbxassetid://16742906657")[1].Source)()end})  loadstring(game:HttpGet("https://raw.githubusercontent.com/DontTrlp/chatgpt/refs/heads/main/testhub"))()
+Tabs.Hub:Button({Title="c00lgui v2",Callback=function()loadstring(game:GetObjects("rbxassetid://16742906657")[1].Source)()end})  
 Tabs.Hub:Button({Title="FE Telekinesis",Callback=function()loadstring(game:HttpGet("https://raw.githubusercontent.com/randomstring0/Qwerty/refs/heads/main/qwerty13.lua"))()end})
 Tabs.Hub:Button({Title="FE Fighter",Callback=function()loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-FE-Fighter-inspired-by-Gale-21557"))()end})
 Tabs.Hub:Button({Title="Part Controller",Callback=function()pcall(function()loadstring(game:HttpGet("https://raw.githubusercontent.com/hm5650/PartController/refs/heads/main/PartController.lua",true))()end)end})
